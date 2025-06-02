@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": "OLJCESPC7Z",
+      "name": "Lenovo ThinkPad X1",
+      "description": "The Lenovo ThinkPad X1 is a durable, high-performance laptop perfect for productivity on the move. The ThinkPad X1 can handle multitasking, video calls, coding, and heavier tasks like data analysis and creative editing.",
+      "picture": "L1.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 1350,
+        "nanos": 960000000
+      },
+      "categories": ["telescopes"]
+    },
+    {
+      "id": "66VCHSJNUP",
+      "name": "Asus ExpertBook P5 (P5405)",
+      "description": "TThe Asus ExpertBook P5 (P5405) is a reliable, business-focused laptop perfect for performance on the move. The ExpertBook P5 can handle spreadsheets, meetings, presentations, and advanced tasks like data modeling and design.",
+      "picture": "L2.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 349,
+        "nanos": 950000000
+      },
+      "categories": ["telescopes"]
+    },
+    {
+      "id": "1YMWWN1N4O",
+      "name": "Apple MacBook Air M4",
+      "description": "The Apple MacBook Air M4 is a sleek, high-performance laptop perfect for productivity on the move. The MacBook Air M4 can handle multitasking, video calls, coding, and heavier tasks like data analysis and creative editing.",
+      "picture": "L3.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 129,
+        "nanos": 950000000
+      },
+      "categories": ["telescopes", "travel"]
+    },
+    {
+      "id": "L9ECAV7KIM",
+      "name": "MSI Summit 13 AI+ Evo 2-in-1",
+      "description": "The MSI Summit 13 AI+ Evo is a lightweight, 2-in-1 ultrabook powered by Intel Core Ultra processors, ideal for mobile professionals. The Summit 13 supports AI acceleration, secure videoconferencing, multitasking, and intensive workflows like edge computing and data visualization.",
+      "picture": "L4.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 621,
+        "nanos": 950000000
+      },
+      "categories": ["accessories"]
+    },
+    {
+      "id": "2ZYFJ3GM2N",
+      "name": "Lenovo ThinkPad P1 Gen 7",
+      "description": "The Lenovo ThinkPad P1 Gen 7 is a high-performance mobile workstation designed for professionals requiring robust computing power on the move. Equipped with Intel Core Ultra processors and NVIDIA RTX Ada Generation graphics, it excels in tasks like 3D rendering, AI development, and video editing",
+      "picture": "L5.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 709,
+        "nanos": 950000000
+      },
+      "categories": ["binoculars"]
+    },
+    {
+      "id": "0PUK6V6EV0",
+      "name": "Dell latitude 5450 laptop",
+      "description": "Dell Latitude 5450 is a business-grade, 14-inch laptop built for productivity and performance on the go. The Latitude 5450 can handle office tasks, virtual meetings, data analysis, and AI-enhanced features like noise reduction, real-time transcription, and adaptive power management.",
+      "picture": "L6.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 470,
+        "nanos": 0
+      },
+      "categories": ["accessories", "telescopes"]
+    },
+    {
+      "id": "LS4PSXUNUM",
+      "name": "HP ZBook Power 40.6 cm (16) G11 Mobile Workstation PC",
+      "description": "THP ZBook Power 16 G11 Mobile Workstation PC is a robust, professional-grade laptop designed for demanding workloads on the move. The ZBook Power 16 G11 can handle 3D modeling, CAD, video rendering, and AI-assisted workflows like real-time collaboration, predictive design, and machine learning acceleration.",
+      "picture": "L7.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 578,
+        "nanos": 80000000
+      },
+      "categories": ["accessories", "flashlights"]
+    },
+    {
+      "id": "9SIQT8TOJO",
+      "name": "Lenovo ThinkPad E14 Gen 5",
+      "description": "CLenovo ThinkPad E14 Gen 5 is a compact, business-grade laptop designed for productivity on the move. The E14 Gen 5 can handle office tasks, virtual meetings, data analysis, and AI-enhanced features like noise reduction, real-time transcription, and adaptive power management.",
+      "picture": "L8.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 599,
+        "nanos": 0
+      },
+      "categories": ["accessories", "telescopes", "assembly"]
+    },
+    {
+      "id": "6E92ZMYYFZ",
+      "name": "Dell Latitude 7350 Laptop",
+      "description": "Dell Latitude 7350 is a sleek, 13.3-inch 2-in-1 ultrabook designed for professionals seeking portability without compromising on performance. The Latitude 7350 is powered by Intel Core Ultra processors and offers up to 32GB LPDDR5x RAM, making it adept at handling multitasking, virtual meetings, data analysis, and AI-enhanced workflows.",
+      "picture": "L9.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 878,
+        "nanos": 950000000
+      },
+      "categories": ["accessories", "telescopes"]
+    },
+    {
+      "id": "HQTGWGPNH4",
+      "name": "Apple MacBook Air M3",
+      "description": "Apple MacBook Air M3 is a thin, lightweight laptop powered by Apple's M3 chip, designed for everyday productivity and portability. The MacBook Air M3 can handle tasks like web browsing, document editing, video conferencing, and light creative work with impressive battery life.",
+      "picture": "L10.jpg",
+      "priceUsd": {
+        "currencyCode": "USD",
+        "units": 1054,
+        "nanos": 990000000
+      },
+      "categories": ["books"]
+    }
+  ]
+}
