@@ -34,7 +34,7 @@ resource "aws_eks_cluster" "main" {
 
 resource "aws_iam_role" "node" {
 
-  name = "${var.cluster_name}-${each.key}-node-role"
+  name = "${var.cluster_name}-node-role"
 
   assume_role_policy = jsonencode({
     Version = "2012-10-17"
