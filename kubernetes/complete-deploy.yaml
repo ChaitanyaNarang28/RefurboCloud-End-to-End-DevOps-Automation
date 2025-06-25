@@ -1037,7 +1037,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: frontend
-          image: 'ghcr.io/open-telemetry/demo:1.12.0-frontend'
+          image: 'chaitanyan1203/frontend-app:latest'
           imagePullPolicy: IfNotPresent
           ports:
             
@@ -1223,7 +1223,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: imageprovider
-          image: 'ghcr.io/open-telemetry/demo:1.12.0-imageprovider'
+          image: 'chaitanyan1203/image-provider:latest'
           imagePullPolicy: IfNotPresent
           ports:
             
@@ -1499,7 +1499,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: productcatalogservice
-          image: 'ghcr.io/open-telemetry/demo:1.12.0-productcatalogservice'
+          image: 'chaitanyan1203/product-catalog:15867312051'
           imagePullPolicy: IfNotPresent
           ports:
             
