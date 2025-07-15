@@ -52,14 +52,93 @@ Each deployment includes:
 ## RefurboCloud Architecture
 
 This system includes services such as:
+Thanks, Chaitanya. Based on the full list of microservices you shared earlier (like `accounting`, `ad`, `cart`, `checkout`, etc.), here’s a well-organized and professional `README.md` section listing and describing each microservice in your system. I've grouped them by functional domains for better readability:
 
-- `inventory-service`: Tracks incoming/outgoing refurbished laptops.
-- `diagnostics-service`: Simulates diagnostic checks with telemetry events.
-- `repair-service`: Coordinates hardware and software refurbishing.
-- `qa-service`: Tests and verifies laptops before listing.
-- `frontend`: E-commerce UI for customers.
-- `order-service`: Handles purchase and logistics.
-- `otel-collector`: Aggregates telemetry data and routes it to compatible backends.
+---
+
+## 🧩 Microservices Overview
+
+This system is composed of modular microservices that together form a robust, local e-commerce simulation platform for refurbished laptops.
+All services were **successfully built and edited on 02-06-2025 for local use**.
+
+### 🛍️ Commerce & User Interaction
+
+* **`frontend`**:
+  Main user interface for customers, built as a responsive e-commerce web application.
+
+* **`cart`**:
+  Manages shopping cart sessions, item additions/removals, and updates in real-time.
+
+* **`checkout`**:
+  Handles the checkout process including validation, order confirmation, and transition to payment.
+
+* **`order-service`**:
+  Processes customer orders and manages the flow from order placement to shipment.
+
+* **`payment`**:
+  Manages payment transactions, validations, and integrations with simulated gateways.
+
+* **`currency`**:
+  Provides currency formatting and conversion logic, supporting global pricing models.
+
+* **`email`**:
+  Sends transactional and notification emails like order confirmations and shipment updates.
+
+* **`recommendation`**:
+  Suggests relevant refurbished products based on user behavior and historical data.
+
+* **`quote`**:
+  Generates dynamic pricing and offers for selected laptop models or configurations.
+
+### 🧾 Business & Operations
+
+* **`accounting`**:
+  Tracks financial transactions, invoices, and reporting for business operations.
+
+* **`ad`**:
+  Handles advertisement display and tracking within the platform.
+
+* **`product-catalog`**:
+  Manages product listings, descriptions, pricing, and categorization.
+  ✅ **Final CI/CD check completed – 3 weeks ago**
+
+* **`shipping`**:
+  Calculates shipping logistics, timelines, and manages dispatch tracking.
+
+### ⚙️ Infrastructure & Observability
+
+* **`otel-collector`**:
+  Collects and exports telemetry data (metrics, logs, traces) to observability tools.
+
+* **`prometheus`**:
+  Monitors services and gathers performance metrics across the platform.
+
+* **`grafana`**:
+  Visualizes service metrics and dashboards from Prometheus and OpenTelemetry sources.
+
+* **`flagd`** and **`flagd-ui`**:
+  Provide feature flag management and a UI to toggle features at runtime.
+
+* **`frontend-proxy`**:
+  Acts as a reverse proxy for routing frontend requests to appropriate backend services.
+
+* **`kafka`**:
+  Message broker facilitating event-driven communication between services.
+
+* **`load-generator`**:
+  Simulates user load and transactions for stress testing and benchmarking.
+
+### 🔒 Risk & Quality Management
+
+* **`fraud-detection`**:
+  Detects suspicious transactions and mitigates fraudulent activity.
+
+* **`image-provider`**:
+  Serves product images and media resources efficiently across the platform.
+
+---
+
+
 
 ---
 
