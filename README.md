@@ -49,13 +49,6 @@ Each deployment includes:
 
 ---
 
-## RefurboCloud Architecture
-
-This system includes services such as:
-Thanks, Chaitanya. Based on the full list of microservices you shared earlier (like `accounting`, `ad`, `cart`, `checkout`, etc.), here’s a well-organized and professional `README.md` section listing and describing each microservice in your system. I've grouped them by functional domains for better readability:
-
----
-
 ## 🧩 Microservices Overview
 
 This system is composed of modular microservices that together form a robust, local e-commerce simulation platform for refurbished laptops.
