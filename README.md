@@ -131,10 +131,6 @@ All services were **successfully built and edited on 02-06-2025 for local use**.
 
 ---
 
-
-
----
-
 ## Documentation 📖
 
 Check the [official demo documentation][docs] for component breakdown, integration methods, and observability practices. For specific RefurboCloud modules, refer to the internal `/docs` folder.
