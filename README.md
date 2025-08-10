@@ -168,7 +168,8 @@ This project is maintained by [Chaitanya Narang](https://github.com/ChaitanyaNar
 
 ## Credits & Thanks 🎉
 
-We extend our sincere gratitude to the [OpenTelemetry community](https://opentelemetry.io) for their robust demo project, which served as the foundation for RefurboCloud.
+We extend our sincere gratitude to the [OpenTelemetry community](https://opentelemetry.io) for their robust demo project, which served as the foundation for RefurboCloud.  
+Special thanks to **Abhishek Veeramalla** ([iam-veeramalla](https://github.com/iam-veeramalla)) for his DevOps project course, which played a key role in the successful completion of this implementation.
 
 [![contributors](https://contributors-img.web.app/image?repo=open-telemetry/opentelemetry-demo)](https://github.com/open-telemetry/opentelemetry-demo/graphs/contributors)
 
